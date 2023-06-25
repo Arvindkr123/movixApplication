@@ -40,7 +40,7 @@ const App = () => {
                 <Route path='/explore/:mediaType' element={<Explore />}></Route>
                 <Route path='*' element={<Pages404 />}></Route>
             </Routes>
-            {/* <Footer/> */}
+            <Footer/>
         </BrowserRouter>
     );
 };
