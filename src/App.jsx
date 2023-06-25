@@ -32,7 +32,7 @@ const App = () => {
     };
     return (
         <BrowserRouter>
-            {/* <Header/> */}
+            <Header/>
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/:mediaType/:id' element={<Details />}></Route>
