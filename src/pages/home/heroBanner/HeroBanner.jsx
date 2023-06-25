@@ -31,7 +31,6 @@ const HeroBanner = () => {
                 <Img src={background} />
             </div>}
             <div className="opacity-layer">
-                
             </div>
             <ContentWrapper>
                 <div className="heroBannerContent">
@@ -41,7 +40,6 @@ const HeroBanner = () => {
                         <input value={query} onChange={(e) => setQuery(e.target.value)} type="text" placeholder='search for movie or tv show' onKeyUp={searchQueryHandler} />
                         <button>Search</button>
                     </div>
-
                 </div>
             </ContentWrapper>
         </div>
